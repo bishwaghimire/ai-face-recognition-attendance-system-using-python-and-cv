@@ -30,7 +30,7 @@ project/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Create virtual environment
 
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📁 Dataset Format
+## Dataset Format
 
 Each person should have a separate folder inside `datasets/`:
 
@@ -61,7 +61,8 @@ datasets/
     ├── 02_01.jpg
     ├── 02_02.jpg
 ```
->> it splits 01_rajesh_hamal to (01 and rajesh_hamal) for (rollno and name)
+> it splits 01_rajesh_hamal to (01 and rajesh_hamal) for (rollno and name)
+
 Use **clear face images** (10–20 images per person recommended).
 
 ---
@@ -108,14 +109,15 @@ sudo apt install build-essential
 
 ---
 
-## 🧠 Future Improvements
+## Future Improvements
 
 * Add GUI dashboard
 * Use deep learning model (FaceNet / ArcFace)
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Bishwa Ghimire**
+
 BSc CSIT, Tribhuvan University
