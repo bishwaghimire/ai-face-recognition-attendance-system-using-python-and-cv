@@ -105,13 +105,19 @@ It will:
 ```bash
 sudo apt update
 sudo apt install build-essential
+inside venv: pip install setuptools
+```
+or direct installation:
+```
+pip install numpy
+pip install dlib
+pip install face-recognition
 ```
 
 ---
 
 ## Future Improvements
 
-* Add GUI dashboard
 * Use deep learning model (FaceNet / ArcFace)
 
 ---
