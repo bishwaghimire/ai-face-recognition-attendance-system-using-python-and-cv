@@ -3,3 +3,5 @@ numpy
 face_recognition
 pillow
 face-recognition-models
+customtkinter
+pandas
